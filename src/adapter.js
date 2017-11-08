@@ -33,7 +33,9 @@ export function validate({ minim, source, requireBlueprintName }, done) {
 /*
  * Parse an API Blueprint into refract elements.
  */
-export function parse({ minim, source, generateSourceMap, requireBlueprintName }, done) {
+export function parse({
+  minim, source, generateSourceMap, requireBlueprintName,
+}, done) {
   const options = {
     exportSourcemap: !!generateSourceMap,
     requireBlueprintName,
@@ -50,4 +52,6 @@ export function parse({ minim, source, generateSourceMap, requireBlueprintName }
   });
 }
 
-export default { name, mediaTypes, detect, validate, parse };
+export default {
+  name, mediaTypes, detect, validate, parse,
+};
