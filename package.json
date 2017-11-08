@@ -5,7 +5,7 @@
   "main": "./lib/adapter.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/apiaryio/fury-adapter-apib-parser.git"
+    "url": "https://github.com/lorangf/fury-adapter-apib-parser.git"
   },
   "scripts": {
     "test": "peasant test",
